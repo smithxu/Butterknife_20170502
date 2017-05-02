@@ -13,6 +13,24 @@
     tools:context="com.feicuiedu.butterknife_20170502.MainActivity">
 
     <TextView
+        android:id="@+id/tv1"
+        android:text="文本"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:text="文本"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:text="文本"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
         android:id="@+id/tvShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,5 +42,16 @@
         android:layout_height="wrap_content"
         android:text="按钮"/>
 
+    <Button
+        android:id="@+id/btnShow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮1"/>
+
+    <Button
+        android:id="@+id/btnShow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮2"/>
 
 </LinearLayout>
